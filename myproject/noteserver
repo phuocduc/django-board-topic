@@ -1,0 +1,11 @@
+error with static_root on server ubuntu: add
+
+STATIC_ROOT = 'staticfiles'
+
+reload service supervisor =>
+
+sudo service supervisord reload
+
+
+pass permision denied nginx => sudo -H
+sudo -H gedit /etc/apache2/sites-available/default
